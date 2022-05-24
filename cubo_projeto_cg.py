@@ -26,7 +26,7 @@ faces = (
 (4,0,3,6),
 )
 
-normals = [
+normais = [
 ( 0,  0, -1),
 (-1,  0,  0),
 ( 0,  0,  1),
@@ -55,7 +55,7 @@ def Cubo():
     glColor3f(1, 1, 1)
     glBegin(GL_QUADS)
     for i_face, face in enumerate(faces):
-        glNormal3fv(normals[i_face])
+        glNormal3fv(normais[i_face])
 
         
         for i_vertice, vertice in enumerate(face):
